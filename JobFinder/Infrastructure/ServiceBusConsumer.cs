@@ -11,7 +11,7 @@ namespace JobFinder.Infrastructure
     public class ServiceBusConsumer
     {
         private readonly string connectionString =
-            "Endpoint=sb://jobfinderbus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=KSz7I90lvZsu0K77PxuZagYRY4NcS8BqN+ASbNfSiFM=";
+            "<YOUR_…>";
 
         private readonly string queueName = "jobcreatedqueue";
         private readonly IServiceScopeFactory _scopeFactory;
