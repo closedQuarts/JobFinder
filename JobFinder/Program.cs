@@ -17,7 +17,7 @@ builder.Services.AddScoped<IJobApplicationRepository, JobApplicationRepository>(
 builder.Services.AddScoped<JobAlertService>();
 
 builder.Services.AddScoped<INotificationRepository, NotificationRepository>();
-//builder.Services.AddHostedService<ServiceBusBackgroundService>();  service bus için arka plan servisi ama her seferinde 500.30 hatası verdi 
+//builder.SeerviceBurvices.AddHostedService<SsBackgroundService>();  service bus için arka plan servisi ama her seferinde 500.30 hatası verdi 
 
 // Redis Bağlantısı
 var redisConnectionString = builder.Configuration.GetSection("Redis").GetValue<string>("ConnectionString");
