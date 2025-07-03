@@ -77,3 +77,5 @@ It includes backend REST APIs, Service Bus messaging, distributed caching with R
 - JWT authentication & authorization.
 - More advanced UI with styling frameworks.
 - Load testing with k6 or JMeter.
+
+video:  [VİDEO LİNKİ]([https://jobfindergateway-eshpcwedgjc6f6hs.northeurope-01.azurewebsites.net](https://youtu.be/h19T-_WYFaw))
