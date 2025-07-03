@@ -37,63 +37,8 @@
 
 ## 🗃 Data Models (ER Diagram)
 
-### User
+![image](https://github.com/user-attachments/assets/77197fd7-45ca-43b1-9744-b4221c4295fe)
 
-| Field       | Type    |
-|-------------|---------|
-| Id          | GUID    |
-| UserName    | string  |
-| Email       | string  |
-
-### Company
-
-| Field    | Type    |
-|----------|---------|
-| Id       | GUID    |
-| Name     | string  |
-
-### JobPosting
-
-| Field              | Type    |
-|--------------------|---------|
-| Id                 | GUID    |
-| Title              | string  |
-| Description        | string  |
-| City               | string  |
-| Town               | string  |
-| Country            | string  |
-| WorkingPreference  | string  |
-| LastUpdateDate     | DateTime|
-| ApplicationCount   | int     |
-| CompanyId          | GUID    |
-
-### JobApplication
-
-| Field         | Type    |
-|---------------|---------|
-| Id            | GUID    |
-| UserId        | GUID    |
-| JobPostingId  | GUID    |
-| AppliedAt     | DateTime|
-
-### JobSearch
-
-| Field       | Type    |
-|-------------|---------|
-| Id          | GUID    |
-| UserId      | GUID    |
-| SearchText  | string  |
-| SearchDate  | DateTime|
-
-### Notification
-
-| Field       | Type    |
-|-------------|---------|
-| Id          | GUID    |
-| UserId      | GUID    |
-| Message     | string  |
-| CreatedAt   | DateTime|
-| IsRead      | bool    |
 
 ---
 
