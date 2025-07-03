@@ -1,4 +1,4 @@
-# JobFinder - SE4458 Büyük Efe Final Project
+# JobFinder - SE4458 JobFinder
 
 This project is a job search platform similar to Kariyer.net, designed for SE4458 Final Project.  
 It includes backend REST APIs, Service Bus messaging, distributed caching with Redis, an API Gateway, and a frontend built in React.js.
