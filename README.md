@@ -7,7 +7,7 @@ It includes backend REST APIs, Service Bus messaging, distributed caching with R
 
 - **API Gateway:** [https://jobfindergateway-eshpcwedgjc6f6hs.northeurope-01.azurewebsites.net](https://jobfindergateway-eshpcwedgjc6f6hs.northeurope-01.azurewebsites.net)
 - **JobFinder API:** [https://jobfinderapi4458-d3g6fkgca2cfaahb.northeurope-01.azurewebsites.net](https://jobfinderapi4458-d3g6fkgca2cfaahb.northeurope-01.azurewebsites.net)
-- **Frontend (React App):** *deploy edilirse link buraya gelecek*
+- **Frontend (React App):** [Frontend](https://github.com/closedQuarts/JobFinderFrontend)
 
 ---
 
