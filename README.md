@@ -1,5 +1,8 @@
 # JobFinder - SE4458 Büyük Efe Final Project
 
+This project is a job search platform similar to Kariyer.net, designed for SE4458 Final Project.  
+It includes backend REST APIs, Service Bus messaging, distributed caching with Redis, an API Gateway, and a frontend built in React.js.
+
 ## 🚀 Final Deployed URLs
 
 - **API Gateway:** [https://jobfindergateway-eshpcwedgjc6f6hs.northeurope-01.azurewebsites.net](https://jobfindergateway-eshpcwedgjc6f6hs.northeurope-01.azurewebsites.net)
@@ -18,6 +21,7 @@
 - Redis distributed caching for JobSearch caching.
 - Entity Framework Core for database operations.
 - React.js frontend communicating via Gateway.
+- Docker containers for backend and frontend
 
 ### Assumptions
 
@@ -39,6 +43,18 @@
 
 ![image](https://github.com/user-attachments/assets/77197fd7-45ca-43b1-9744-b4221c4295fe)
 
+
+---
+
+## 🎯 Use Cases Covered
+
+✅ Job Posting CRUD  
+✅ Job Search (with caching in Redis)  
+✅ Notifications for new job postings based on search history  
+✅ User login and profile header  
+✅ Applying for jobs  
+✅ AI Chatbot (backend API) for job search queries  
+✅ API Gateway routing with Ocelot
 
 ---
 
